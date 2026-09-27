@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>【アプリ名】サポート</title>
+<meta name="description" content="草野球の配球記録・傾向分析アプリ【アプリ名】のサポートページです。">
+<style>
+  :root {
+    --bg: #f6f7f5;
+    --card: #ffffff;
+    --text: #1d2320;
+    --muted: #5d6762;
+    --accent: #1f7a4d;
+    --line: #e2e6e3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141816;
+      --card: #1d2320;
+      --text: #eef2ef;
+      --muted: #a3ada8;
+      --accent: #4fc38a;
+      --line: #2c3430;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { text-align: center; margin-bottom: 32px; }
+  header h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  header p { color: var(--muted); margin: 0; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 20px 8px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin: 0 0 12px;
+    padding-left: 10px;
+    border-left: 4px solid var(--accent);
+  }
+  details { border-top: 1px solid var(--line); padding: 12px 0; }
+  details:first-of-type { border-top: none; padding-top: 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 8px 0 0; color: var(--muted); }
+  ul { padding-left: 1.2em; margin: 0 0 12px; }
+  .contact {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 999px;
+    margin: 4px 0 12px;
+    word-break: break-all;
+  }
+  .note { color: var(--muted); font-size: 0.9rem; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>【アプリ名】</h1>
+    <p>草野球の配球記録・傾向分析アプリ｜サポートページ</p>
+  </header>
+
+  <section>
+    <h2>アプリについて</h2>
+    <p>相手投手の投球をベンチで記録し、カウント・左右打者・走者状況ごとに、割合の高い球種をベスト3で表示するアプリです。記録から閲覧までベンチ内で完結します。</p>
+  </section>
+
+  <section>
+    <h2>使い方</h2>
+    <ul>
+      <li>試合を開始し、打者の左右と走者の配置を選びます。</li>
+      <li>投球ごとに球種（・コース）をタップして記録します。</li>
+      <li>集計画面で、初球・打者有利・投手有利・フルカウントの場面ごとの傾向を確認できます。</li>
+      <li>2ストライク後に投げた球は「決め球」として集計されます。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>よくある質問</h2>
+
+    <details>
+      <summary>「打者有利」「投手有利」カウントはどう分けていますか？</summary>
+      <p>投手有利カウントは 0-1、0-2、1-1、1-2、2-2 です。初球とフルカウントは別の区分として集計し、それ以外を打者有利カウントとしています。</p>
+    </details>
+
+    <details>
+      <summary>決め球はどのように数えていますか？</summary>
+      <p>2ストライクになった後に投げられた球をすべて「決め球」として集計しています。</p>
+    </details>
+
+    <details>
+      <summary>記録を間違えて入力しました。</summary>
+      <p>【取り消し・修正の操作方法を記入】</p>
+    </details>
+
+    <details>
+      <summary>購入した機能が使えなくなりました（機種変更・再インストール時）</summary>
+      <p>アプリ内の「購入を復元」から、購入時と同じApple IDで復元してください。追加の料金はかかりません。</p>
+    </details>
+
+    <details>
+      <summary>返金を希望します。</summary>
+      <p>App Storeでの購入に関する返金はAppleが対応しています。Appleの「問題を報告する」ページ（reportaproblem.apple.com）からお手続きください。</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告、ご要望、ご質問は以下のメールアドレスまでお送りください。</p>
+    <a class="contact" href="mailto:【メールアドレス】?subject=%E3%80%90%E3%82%A2%E3%83%97%E3%83%AA%E5%90%8D%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">【メールアドレス】</a>
+    <p class="note">不具合のご報告の際は、ご利用の端末名・iOSのバージョン・発生した操作をお書き添えいただくとスムーズです。通常、数日以内にご返信します。</p>
+  </section>
+
+  <footer>
+    <p>© 2026 【開発者名】</p>
+  </footer>
+
+</div>
+</body>
+</html>
